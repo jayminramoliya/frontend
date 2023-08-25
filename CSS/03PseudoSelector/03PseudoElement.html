@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2::after{
+            content: "~ ";
+        }
+        
+        h2::before{
+            content: "Important Note : ";
+        }
+        
+        /* h2::before{
+            content: "~ ";
+        } */
+
+        p::first-letter{
+            font-size: 36px;
+            color: red;
+        }
+
+        p::first-line{
+            color: rgb(150, 7, 7);
+        }
+
+        p::selection{
+            color: white;
+            background-color: rgb(117, 21, 21);
+        }
+
+        input::placeholder{
+            color: rgb(21, 0, 255);
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Title</h2>
+    <h2>Other</h2>
+    <h2>Test</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam itaque eligendi, numquam incidunt temporibus commodi necessitatibus voluptatum, ducimus, dolore ullam praesentium! Unde eaque pariatur quia consectetur fugit enim voluptatum eveniet.</p>
+    <input type="text" placeholder="Enter User Name" name="" id="">
+    <mark>Test</mark>
+    
+</body>
+</html>

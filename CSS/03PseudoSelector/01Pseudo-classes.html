@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            color: orangered;
+        }
+        /* a{
+            color: orangered;
+        } */
+        a:active {
+            color: aqua;
+        }
+
+        a:link {
+            color: orange;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        input:autofill {
+            border: 3px solid darkorange;
+        }
+
+        textarea:blank {
+            border: 3px solid red;
+        }
+
+        textarea:focus {
+            border: 3px solid red;
+        }
+
+        input:checked {
+            border: none;
+            outline: 2px solid deeppink;
+        }
+
+        input:default {
+            border: none;
+            outline: 2px solid deeppink;
+        }
+
+        :dir(rtl) {
+            background-color: red;
+        }
+
+        *:disabled {
+            background-color: dimgrey;
+            color: linen;
+            opacity: 1;
+        }
+
+        /* The :first CSS pseudo-class, used with the @page at-rule, represents the first page of a printed document. (See :first-child for general first element of a node.) */
+        @page :first {
+            margin-left: 50%;
+            margin-top: 50%;
+        }
+
+        h1:has(+ h2) {
+            margin: 0 0 0.25rem 0;
+        }
+
+        img:hover {
+            width: 300px;
+        }
+
+        input:invalid {
+            background-color: ivory;
+            border: none;
+            outline: 2px solid red;
+            border-radius: 5px;
+        }
+
+
+        button {
+            display: block;
+            margin: auto;
+            width: 10rem;
+            height: 2rem;
+        }
+
+        :modal {
+            background-color: beige;
+            border: 2px solid burlywood;
+            border-radius: 5px;
+        }
+
+        div:empty {
+            outline: 2px solid deeppink;
+            height: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div></div>
+    <!-- <div>
+
+    </div> -->
+    <div>
+        test
+        <a href="#">Click</a>
+        <a href="http://www.google.com">Click</a>
+    </div>
+    <form method="get">
+        <input type="text" name="username" id="">
+        <input type="email" name="email" id="">
+        <textarea name="" id="" cols="30" rows="10" required></textarea>
+        <input type="checkbox" name="" id="">
+        <input type="text" name="disabled" disabled value="something" id="">
+        <input type="text" name="readonly" readonly value="readonly" id="">
+        <input type="file" name="" id="">
+        <input type="submit" id="">
+        <input type="submit" disabled id="">
+    </form>
+
+    <img src="../../WhatisWebsite.png" width="150px" alt="">
+    <section>
+        <article>
+            <h1>Morning Times</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </article>
+        <article>
+            <h1>Morning Times</h1>
+            <h2>Delivering you news every morning</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </article>
+    </section>
+
+</body>
+
+</html>

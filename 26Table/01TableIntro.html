@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam neque est quod deleniti iste non.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reiciendis deserunt magnam quis animi eligendi
+        perspiciatis.</p>
+    <p> are regular and left aligned by default</p>
+
+
+    <table class="alt">
+        <tbody>
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>It defines a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;</td>
+                <td>It defines a row in a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;</td>
+                <td>It defines a header cell in a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;</td>
+                <td>It defines a cell in a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;caption&gt;</td>
+                <td>It defines the table caption.</td>
+            </tr>
+            <tr>
+                <td>&lt;colgroup&gt;</td>
+                <td>It specifies a group of one or more columns in a table for formatting.</td>
+            </tr>
+            <tr>
+                <td>&lt;col&gt;</td>
+                <td>It is used with &lt;colgroup&gt; element to specify column properties for each
+                    column.</td>
+            </tr>
+            <tr>
+                <td>&lt;tbody&gt;</td>
+                <td>It is used to group the body content in a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;thead&gt;</td>
+                <td>It is used to group the header content in a table.</td>
+            </tr>
+            <tr>
+                <td>&lt;tfooter&gt;</td>
+                <td>It is used to group the footer content in a table.</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+    </table>
+
+    <h2>Table Heading</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ramesh</td>
+                <td>50000</td>
+            </tr>
+
+            <tr>
+                <td>Mahesh</td>
+                <td>60000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Cellpadding and Cellspacing Attributes</h2>
+    <table border="1" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>Ramesh</td>
+            <td>50000</td>
+        </tr>
+
+        <tr>
+            <td>Mahesh</td>
+            <td>60000</td>
+        </tr>
+    </table>
+
+    <h2>Tables Background</h2>
+    <p>You can set table background using one of the following two ways</p>
+    <ul>
+        <li>bg color attributes- You can set background color for whole table or just for one cell.</li>
+        <li>background attribute- You can set background image for whole table or just for one cell.</li>
+    </ul>
+
+    <table border="1" bordercolor="green">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+
+    <h2>Table Caption</h2>
+    <table border="1">
+        <caption>This is the caption</caption>
+
+        <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+    </table>
+    <h2>Table header body, footer</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="4">This is head of the table</td>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">This is the foot of the table</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Neated Table</h2>
+    <table border="3" bordercolor="green">
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1
+                <table border="2" bordercolor="blue">
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1</td>
+        </tr>
+    </table>
+
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <table border="1" width="100%"></table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Salary</th>
+                    </tr>
+                    <tr>
+                        <th>Jay</th>
+                        <th>7000</th>
+                    </tr>
+                    <tr>
+                        <th>Jigar</th>
+                        <th>7000</th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

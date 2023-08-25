@@ -1,0 +1,76 @@
+	(1) Are the HTML tags and elements the same thing? 
+   	HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used to describe the characteristic of an HTML element in detail. Whatever written 	within a HTML tag are HTML elements.
+
+    
+    	(2) What are tags and attributes in HTML?
+    	Tags are markup symbols that define HTML elements. Attributes provide additional information about elements in the form of name-value pairs.
+
+    	(3) What are void elements in HTML? With Example?
+    	Void elements in HTML are self-closing and do not have a closing tag. Example: <br> for line breaks, <img> for images.
+
+    	(4)What are HTML Entities? With Example.
+    	HTML Entities are special codes representing characters with special meanings in HTML. Example: &lt; for the less-than symbol (<).
+
+    	(5)What are different types of lists in HTML? With Example.
+    	Different types of lists in HTML include ordered <ol>, unordered <ul>, and definition <dl> lists.
+
+    	(6)What is the class attribute in HTML? With Example.
+    	The 'class' attribute in HTML is used to apply styles or group elements. Example: <p class="important">.
+
+	(7)What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+	elements? With Example.
+	The 'id' attribute uniquely identifies an element, while 'class' can be used for multiple elements. 
+	Example:
+
+
+	<p id="unique">Unique element</p>
+	<p class="highlight">Multiple elements</p>
+
+	(8)What are the various formatting tags in HTML?
+	Various formatting tags in HTML include <b>, <i>, <u>, <strong>, <em>, etc.
+
+
+	(9)How is Cell Padding different from Cell Spacing? With Example.
+	Cell Padding is the space between the content of a cell and its border, while Cell Spacing is the space between cells in a table.
+
+	(10)How can we club two or more rows or columns into a single row or column in an HTML
+	table? With Example.
+	o club rows or columns, use 'rowspan' or 'colspan' attributes.
+
+	(11)What is the difference between a block-level element and an inline element?
+	Block-level elements start on a new line and take full width, while inline elements do not start on a new line and only take necessary width.
+
+	(12)How to create a Hyperlink in HTML? With Example.
+	Create a hyperlink using the <a> tag with the 'href' attribute. Example:
+	<a href="https://www.example.com">Visit Example Website</a>
+
+	(13)What is the use of an iframe tag? With Example.
+	The <iframe> tag embeds another HTML document or webpage within the current one. Example:
+	<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315"></iframe>
+	
+	(14)What is the use of a span tag? Explain with example?
+	The <span> tag applies styles to specific portions of text within block-level elements. Example:
+	<p>This is a <span style="color: red;">red</span> text.</p>
+
+	(15)How to insert a picture into a background image of a web page? With Example.
+	To insert a picture into the background image of a web page, use CSS background property. Example:
+	<style>
+ 	 body {
+   	 background-image: url("background.jpg");
+  	}
+	</style>
+
+	(16)How are active links different from normal links?
+	Active links have different styles when clicked or activated, while normal links have regular styles.
+
+	(17)What are the different tags to separate sections of text?
+	Different tags to separate sections of text include headings (<h1> to <h6>), paragraphs (<p>), and divisions (<div>).
+
+	(18)What is SVG?
+	SVG (Scalable Vector Graphics) is an XML-based format for describing two-dimensional vector graphics.
+
+	(19)What is difference between HTML and XHTML?
+	The main difference between HTML and XHTML is that XHTML is an XML-based version of HTML and requires stricter syntax rules.
+	
+	(20)What are logical and physical tags in HTML?
+	Logical tags in HTML describe the meaning of content, such as <header>, <nav>, and <footer>. Physical tags define the appearance, like <b> for bold and <i> for italic. However, 	it's essential to use semantic elements over physical ones for better accessibility and SEO.
