@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+        }
+
+        table,td,th {
+            border: solid 2px black;
+        }
+
+        th {
+            color: red;
+        }
+
+        #periodic-tabel {
+            padding-top: 20px;
+            vertical-align: top;
+            font-weight: bold;
+            color: green;
+            border-left-style: none;
+            border-right-style: none;
+        }
+
+        td {
+            width: 100px;
+            height: 60px;
+            text-align: center;
+        }
+        
+        td:first-child {
+            background-color: lightgreen;
+        }
+
+        td:last-child {
+            background-color: gold;
+        }
+
+        td:nth-child(2) {
+            background-color: cyan;
+        }
+
+        td.nbsp {
+            border-right-style: none;
+            border-left-style: none;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <table id="xyz">
+            <tr>
+                <th>I</th>
+                <th>II</th>
+                <th>III</th>
+                <th>IV</th>
+                <th>V</th>
+                <th>VI</th>
+                <th>VII</th>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td class="nbsp">&nbsp;</td>
+                <td id="periodic-tabel" colspan="3" rowspan="3">Periodic Table of Elements</td>
+                <td class="nbsp">&nbsp;</td>
+                <td>He</td>
+            </tr>
+            <tr>
+                <td>Li</td>
+                <td>Be</td>
+                <td>B</td>
+                <td class="periodic-tabel">Ne</td>
+            </tr>
+            <tr>
+                <td>Na</td>
+                <td>Mg</td>
+                <td>Al</td>
+                <td>Ar</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>Ca</td>
+                <td>Sc</td>
+                <td>Ti</td>
+                <td>V</td>
+                <td>Ga</td>
+                <td>Kr</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
