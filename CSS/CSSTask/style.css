@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner&family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner&family=Montserrat&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ffc045;
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.logo img{
+    padding: 20px;
+    margin-right: 900px;
+}
+
+.text p{
+        display: inline-flex;
+        margin-top: 35px;
+        font-size: 17px;
+        color: #3d2514;
+        font-family: "Montserrat";
+        text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    /* margin: 7px; */
+    font-family: "Bebas Neue";
+
+}
