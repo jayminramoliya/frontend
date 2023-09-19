@@ -1,38 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner&family=Montserrat&family=Ubuntu:wght@300&display=swap');
-
+/* COMMON CSS START */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner&family=Montserrat&family=Ubuntu:wght@300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 }
 
-.container{
-    background-color: #ffc045;
-    height: 500px;
+.container {
+    background-image: url(Images/headerbg.png);
+    width: 1440px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 825px;
+}
+
+.container-fluid {
     width: 100%;
-    display: inline-flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.logo img{
-    padding: 20px;
-    margin-right: 900px;
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.text p{
-        display: inline-flex;
-        margin-top: 35px;
-        font-size: 17px;
-        color: #3d2514;
-        font-family: "Montserrat";
-        text-align: right;
+.col {
+    padding: 0 15px;
+    flex: 1 0 0%;
 }
 
-.navbar li{
+.col2{
+    display: block;
+    margin-top: 200px;
+    width: 500px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.navbar ul li {
     display: inline-block;
-    font-size: 25px;
-    padding: 5px;
-    /* margin: 7px; */
-    font-family: "Bebas Neue";
+    font-weight: 600;
+}
 
+a {
+    text-decoration: none;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+/* COMMON CSS END */
+
+
+
+
+
+/* Header CSS START */
+#main-header {
+    background: url(../images/headerbg.png);
+}
+
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+li:nth-child(2n),
+li:nth-child(3n) {
+    padding: 10px;
+
+}
+
+.img {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    left: 700px;
+    top: -460px;
+}
+
+
+.text {
+    border: 2px dashed black;
+    width: fit-content;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text2 p {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: "Alfa Slab One";
+    font-weight: 600;
+    color: #3d2514;
+}
+.text3 p {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: "Alfa Slab One";
+    font-weight: 600;
+    color: #3d2514;
 }
