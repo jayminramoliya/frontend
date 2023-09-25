@@ -1,6 +1,8 @@
 /* COMMON CSS START */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner&family=Montserrat&family=Ubuntu:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@ font-family: 'Ubuntu', sans-serif;
 
 .container {
     background-image: url(Images/headerbg.png);
-    width: 1440px;
+    /* width: 1440px; */
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -92,10 +94,10 @@ li:nth-child(3n) {
 
 .img {
     position: relative;
-    width: 800px;
-    height: 800px;
+    width: 825px;
+    height: 825px;
     left: 700px;
-    top: -460px;
+    top: -630px;
 }
 
 
@@ -104,6 +106,7 @@ li:nth-child(3n) {
     width: fit-content;
     padding: 5px;
     font-size: 20px;
+    font-family: "Bebas Neue";
 }
 
 .text2 p {
