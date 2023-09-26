@@ -16,12 +16,16 @@ font-family: 'Ubuntu', sans-serif;
 
 .container {
     background-image: url(Images/headerbg.png);
-    /* width: 1440px; */
+    width: 1440px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     height: 825px;
+}
+
+.main-header{
+    background-image: url(Images/headerbg.png);
 }
 
 .container-fluid {
@@ -32,7 +36,7 @@ font-family: 'Ubuntu', sans-serif;
     margin-left: auto;
 }
 
-.row {
+.row1 {
     display: flex;
     margin-right: -15px;
     margin-left: -15px;
@@ -122,4 +126,8 @@ li:nth-child(3n) {
     font-family: "Alfa Slab One";
     font-weight: 600;
     color: #3d2514;
+}
+
+.wrapper{
+
 }
