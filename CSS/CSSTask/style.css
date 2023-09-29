@@ -106,7 +106,6 @@ ul {
 li:nth-child(2n),
 li:nth-child(3n) {
     padding: 10px;
-
 }
 
 .jss {
@@ -144,6 +143,16 @@ li:nth-child(3n) {
     font-family: "Alfa Slab One";
     font-weight: 600;
     color: #3d2514;
+}
+
+.image-ab {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 330px;
+}
+
+.image-re img {
+    position: relative;
 }
 
 .col-50 {
@@ -335,7 +344,7 @@ li:nth-child(3n) {
     text-align: left;
 }
 
-.mt-end{
+.mt-end {
     padding-top: 170px;
 }
 
@@ -344,21 +353,26 @@ li:nth-child(3n) {
     /* padding: 45% 0; */
     margin-top: 240px;
 }
-.location img{
+
+.location img {
     width: 18px;
 }
-.email img{
+
+.email img {
     width: 18px;
     margin-top: 10px;
 }
+
 .pd-20 {
     padding: 20px;
 }
-.social{
+
+.social {
     text-align: end;
     padding-top: 183px;
 }
-.social img{
+
+.social img {
     margin-right: 5px;
-    
+
 }
