@@ -85,6 +85,7 @@ a {
 
 .txt-end {
     text-align: end;
+    margin-top: 23px;
 }
 
 /* COMMON CSS END */
@@ -153,6 +154,23 @@ li:nth-child(3n) {
 
 .image-re img {
     position: relative;
+}
+
+.fries {
+    top: 30px;
+    left: 330px;
+}
+
+.burger {
+    top: -60px;
+    z-index: 1;
+    left: 470px;
+}
+
+.drinks {
+    top: -65px;
+    /* left: 80px; */
+    right: -20px;
 }
 
 .col-50 {
@@ -275,7 +293,7 @@ li:nth-child(3n) {
 
 .card {
     text-transform: uppercase;
-    margin: 0 auto;
+    margin: 90px;
     padding: 25px;
     /* width: 1294px; */
     /* height: 492px; */
@@ -311,7 +329,7 @@ li:nth-child(3n) {
     font-weight: 400;
     font-family: "Montserrat";
     padding-top: 40px;
-}
+}   
 
 .col-60 {
     width: 60%;
