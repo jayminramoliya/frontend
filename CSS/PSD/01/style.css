@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+div[class*="col"] {
+    padding: 0 15px;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.txt-l {
+    text-align: left;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+.txt-e {
+    text-align: end;
+}
+
+.jss {
+    justify-content: space-between;
+}
+
+.pos-r {
+    position: relative;
+}
+
+.pos-ab {
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* common css end */
+
+/* section-1 start */
+
+.sec-1 {
+    background-image: url(Images/headerbg.png);
+    background-color: #5380c1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    padding: 0 1.3rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+
+.navbar {
+    margin: 1.8rem 0;
+}
+
+.pd {
+    padding: 0.8rem 0;
+}
+
+.background {
+    opacity: 0.500;
+    background-color: #5380c1;
+}
+
+.text{
+    padding: 10rem 0;
+}
+
+.text h2 {
+    font-size: 4.60rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "poppins";
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+.text p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-family: "Nunito";
+}
+
+.order {
+    padding: 0.8rem 6rem;
+    margin: 1.8rem 0;
+    border-radius: 30px;
+    background-color: #edc315;
+    border-color: #edc315;
+    font-family: "poppins";
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
