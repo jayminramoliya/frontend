@@ -13,5 +13,5 @@ else if (num >= 75 && num <= 100) {
     console.log("distinction")
 }
 else {
-    console.log("invalid number")
+    console.log("invalid  number")
 }
