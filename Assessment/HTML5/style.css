@@ -8,7 +8,7 @@
     align-items: right;
 } */
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-weight: 500;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -31,21 +31,21 @@ a{
     height: max-content;
 }
 
-.dropdown{
+.dropdown {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.dropdown:hover{
+.dropdown:hover {
     cursor: pointer;
 }
 
-.images img{
+.images img {
     height: 40px;
     width: 40px;
 }
 
-button{
+button {
     cursor: pointer;
 }

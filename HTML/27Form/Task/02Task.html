@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+    <form action="" method="post">
+        
+        <fieldset>
+            <h1>Sign up</h1>
+            <table>
+                <tr>
+                    <td><label for="text" for="">First,last Name:-</legend></td>
+                    <td><input type="text" name="First"></td>
+                    <td><input type="text" name="last"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td colspan="2"><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>organization :</label></td>
+                    <td colspan="2"><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>work number:</label></td>
+                    <td colspan="2"><input type="tel" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>home number:</label></td>
+                    <td colspan="2"><input type="tel" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>cell Number:</label></td>
+                    <td colspan="2"><input type="tel" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>fax:</label></td>
+                    <td colspan="2"><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>address 1:</label></td>
+                    <td colspan="2"><textarea name="text" id="tx" cols="40" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="tx">address 2:</label></td>
+                    <td colspan="2"><textarea name="text" id="tx" cols="40" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label">city:</label></td>
+                    <td><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>State Province:</label></td>
+                    <td><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>Zip Postal Code:</label></td>
+                    <td><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td><label>counrty:</label></td>
+                    <td><input type="text" name=""></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        - required fields Sign Up 
+                    </td>
+                    <td align="center"><button>Submit</button></td>
+                    <td align="right"> <a href="">Forms</a></td>
+                </tr>
+            </table>
+            
+        </fieldset>
+    </form>
+</center>
+
+
+    <h1 align="Center">Form Introdution</h1>
+    <p>Form Will Helps to send data to server</p>
+    <p>there are 2 method of form</p>
+    <ol>
+        <li>GET</li>
+        <li>POST</li>
+    </ol>
+<hr>
+<br><br>
+
+<h2>1} GET method</h2>
+<p>GET method send data to server </p>
+<p>Less secure</p>
+<p>Get Mainly use for searching</p>
+<p>Get default method in form   </p>
+
+<br><br>
+
+<h2>2} Post Method</h2>
+<p>POST Method sending data without using URL</p>
+<P>secure</P>
+<p>No Limitation</p>
+<p>support any of file uploding</p>
+<p>not able to bookmark</p>
+
+
+<hr>
+<form method="post">
+        <table>
+            <tr>
+                <td><label for="">User Name</label></td>
+                <td><input type="text" name="username" id=""></td>
+            </tr>           
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="Password" id=""></td>
+            </tr>
+            <hr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                <input type="radio" name="Gender" id="male"><label for="male">male</label>
+                <input type="radio" name="Gender" id="Female"><label for="Female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Hobbies</label></td>
+                <td>
+                    <input type="checkbox" name="chk[]" value="Reading" id="Reading"><label for="Reading">Reading</label>
+                    <input type="checkbox" name="chk[]" value="Cricket" id="Cricket"><label for="Cricket">Cricket</label>
+                    <input type="checkbox" name="chk[]" value="Travelling" id="Travelling"><label for="Travelling">Travelling</label>
+                </td>
+                <tr>
+                    <td><label for="">Profile Pic</label></td>
+                    <td>
+                        <input type="file" name="prod_pic" id="" accept="image/*">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button>
+                    <td><button type="reset">reset</button>
+                    <td>                        
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</form>
+    
+</body>
+</html>
