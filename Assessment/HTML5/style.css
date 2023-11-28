@@ -25,7 +25,7 @@ a {
 .navbar {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 20px;      
     align-items: center;
     justify-content: center;
     height: max-content;
