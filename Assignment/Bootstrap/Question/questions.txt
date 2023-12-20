@@ -17,8 +17,8 @@
 	 You can add on optional JavaScript radio and checkbox style behavior with Bootstrap Button Plugin.
 
 • How can you use Bootstrap to make thumbnails?
-	-This chapter discusses about Bootstrap thumbnails. A lot of sites need a way to lay out images, videos, text, etc, in a grid, and Bootstrap has an easy way to do this with thumbnails. To create thumbnails using Bootstrap −
-	 Add an <a> tag with the class of .thumbnail around an image.
+	-This chapter discusses about Bootstrap thumbnails. A lot of sites need a way to lay out images, videos, text, etc, in a grid, and Bootstrap has an easy way to do this with 	thumbnails. To create thumbnails using Bootstrap 
+	 −Add an <a> tag with the class of .thumbnail around an image.
 	 This adds four pixels of padding and a gray border.
 	 On hover, an animated glow outlines the image.
 	
