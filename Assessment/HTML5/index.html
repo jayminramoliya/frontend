@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="row">
+      <div class="images">
+        <img src="profile-user.png" alt="" />
+      </div>
+      <div class="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <div class="dropdown" style="display: flex; align-items: center">
+          <a href="" class="drop">Services</a>
+
+          <div class="submenu-1">
+            <a href="">Webdesign</a>
+            <a href="">Marketing</a>
+            <a href="">Wordpress</a>
+            <div class="dropdown-2">
+              <a
+                href=""
+                class="submenu-2-dropdown"
+                style="display: flex; align-items: center"
+              >
+                <span> More</span>
+                <img
+                  src="right-arrow.svg"
+                  style="transform: rotate(-90deg)"
+                  alt=""
+                />
+              </a>
+              <div class="submenu-2">
+                <a href="">HTML</a>
+                <a href="">CSS</a>
+                <a href="">JavaScript</a>
+                <a href="">jQuery</a>
+              </div>
+            </div>
+          </div>
+          <img src="right-arrow.svg" alt="" />
+        </div>
+        <a href="">Blogs</a>
+        <a href="">Contacts</a>
+        <button>Login</button>
+      </div>
+    </div>
+
+    <!-- <div class="row">
         <div class="images">
             <img src="profile-user.png" alt="">
         </div>
@@ -25,7 +66,7 @@
             <a href="">Contacts</a>
             <button>Login</button>
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="row">
         <div class="navbar">
@@ -56,7 +97,5 @@
             </div>
         </div>
     </div> -->
-
-</body>
-
+  </body>
 </html>

@@ -1,3 +1,74 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: rgb(31, 31, 183);
+    align-items: center;
+}
+
+.images img{
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;      
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+
+.submenu-1{
+    position: absolute;
+    top: 9%;
+    right: 14.5%;
+    background-color: rgb(31, 31, 183);
+}
+
+.submenu-1 a{
+    display: block;
+    padding: 12px 25px;
+}
+
+.submenu-1{
+    display: none;
+}
+
+.submenu-1 a:hover{
+    background-color: rgb(77, 125, 221);
+}
+
+.dropdown:hover .submenu-1{
+    display: block;
+}
+
+.dropdown{
+    padding: 14px 16px;
+}
+
+.submenu-2{
+    position: absolute;
+    display: none;
+    top: 71.5%;
+    right:-96%;
+    background-color: rgb(31, 31, 183);
+}
+
+.submenu-2 a{
+    padding: 12px 25px;
+}
+
+.dropdown-2:hover .submenu-2{
+    display: block;
+}
 /* * {
     margin: 0;
     padding: 0;
@@ -7,7 +78,7 @@
     display: flex;
     align-items: right;
 } */
-
+/* 
 .row {
     display: flex;
     justify-content: space-between;
@@ -48,4 +119,4 @@ a {
 
 button {
     cursor: pointer;
-}
+} */
